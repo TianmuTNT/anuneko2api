@@ -11,7 +11,7 @@ A lightweight proxy that converts Anuneko services into a standard OpenAI API fo
 *   **Multi-Model**: Switch between "Orange Cat" and "Exotic Shorthair" via model names.
 *   **Access Control**: Secure your proxy with custom API Keys.
 
-## 🚀 Deployment (Docker)
+## 🚀 Deployment
 
 1. Create a `.env` file:
    ```dotenv
