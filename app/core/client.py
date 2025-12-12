@@ -11,8 +11,8 @@ class AnunekoClient:
         self.headers = {
             "accept": "*/*",
             "content-type": "application/json",
-            "origin": "https://anuneko.com",
-            "referer": "https://anuneko.com/",
+            "origin": "https://anuneko.ai",
+            "referer": "https://anuneko.ai/",
             "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
             "x-app_id": "com.anuttacon.neko",
             "x-client_type": "4",
