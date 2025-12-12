@@ -15,7 +15,7 @@ class Settings(BaseSettings):
     ANUNEKO_COOKIE: str = ""
     
     # API 接口地址
-    BASE_URL: str = "https://anuneko.com/api/v1"
+    BASE_URL: str = "https://anuneko.ai/api/v1"
     
     class Config:
         env_file = ".env"
