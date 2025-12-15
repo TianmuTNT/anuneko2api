@@ -4,7 +4,7 @@ from pydantic_settings import BaseSettings
 class Settings(BaseSettings):
     # 服务端配置
     API_PREFIX: str = "/v1"
-    HOST: str = "0.0.0.0"
+    HOST: str = "127.0.0.1"
     PORT: int = 8000
     
     # 代理鉴权
@@ -15,7 +15,7 @@ class Settings(BaseSettings):
     ANUNEKO_COOKIE: str = ""
     
     # API 接口地址
-    BASE_URL: str = "https://anuneko.com/api/v1"
+    BASE_URL: str = "https://anuneko.ai/api/v1"
     
     class Config:
         env_file = ".env"
